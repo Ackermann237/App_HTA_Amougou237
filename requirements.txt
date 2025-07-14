@@ -4,19 +4,19 @@ gTTS==2.5.4
 joblib==1.3.2
 langchain==0.3.26
 matplotlib==3.7.5
-numpy>=1.21.0,<2.0.0
+numpy==1.24.4
+openpyxl==3.1.2
 pandas==2.1.4
-Pillow==11.3.0
+pillow==11.3.0
 plotly==5.24.1
 pycaret==3.3.2
-python-dotenv==1.1.1
-requests==2.32.4
-scikit-learn==1.4.2
+python-dotenv==1.0.1
+requests==2.31.0
+scikit-learn==1.3.2
 scipy==1.11.4
 seaborn==0.13.2
 streamlit==1.45.1
 streamlit_lottie==0.0.5
-tensorflow==2.15.0         # ✅ compatible avec Streamlit Cloud
+tensorflow==2.18.0
 transformers==4.40.1
-openpyxl==3.1.2
 xgboost==2.1.1

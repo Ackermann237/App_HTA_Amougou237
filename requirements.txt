@@ -4,11 +4,11 @@ gTTS==2.5.4
 joblib==1.3.2
 langchain==0.3.26
 matplotlib==3.7.5
-numpy>=1.23.0,<2.0.0
+numpy==1.24.4
 pandas==2.2.2
 Pillow==11.3.0
 plotly==5.24.1
-pycaret==3.3.2
+pycaret==3.2.0
 python-dotenv==1.0.1
 requests==2.32.4
 scikit-learn==1.4.2

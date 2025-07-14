@@ -1,6 +1,5 @@
-setuptools>=69
-distutils-adapter>=0.1
-setuptools-scm>=8.0
+setuptools>=69.0.0,<70.0.0
+
 streamlit==1.45.1
 pandas==2.2.2
 numpy==1.24.4

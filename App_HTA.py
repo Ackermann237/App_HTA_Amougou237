@@ -264,6 +264,7 @@ def load_lottiefile(filepath: str):
         return json.load(f)
 
 lottie_heart = load_lottiefile("./Animation - 1751629587652.json")
+lottie_chatbot = load_lottiefile("./THNOkGgv3C.json")
 
 # Cache pour le chargement des modèles
 @st.cache_resource(ttl=3600)  # Cache avec un TTL de 1 heure
@@ -975,8 +976,8 @@ def main():
 
         # Section Chat Médical
         elif choice == "🤖 Chat Médical":
-            st.title(f"🤖 Chatbot du GMSH - Assistant IA Génératif avec Groq")
-            st.image("./bot3.png", caption="Assistant IA Groq", width=400)
+            st.title("🤖 HyperBot GMSH – Chatbot IA pour la Prévention de l’Hypertension")
+            st_lottie(lottie_chatbot, speed=1, width=400, height=300, loop=True, key="chatbot")
             st.markdown("🧠 Posez vos questions en langage naturel. Le modèle Groq répond avec intelligence, et vous pouvez écouter la réponse.")
 
             # Affichage de l'historique dans la sidebar

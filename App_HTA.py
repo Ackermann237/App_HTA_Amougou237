@@ -976,9 +976,9 @@ def main():
 
         # Section Chat Médical
         elif choice == "🤖 Chat Médical":
-            st.title("🤖 HyperBot GMSH – Chatbot IA pour la Prévention de l’Hypertension")
+            st.title("🤖 HyperBot GMSH – Votre assistant de Santé Intelligent")
             st_lottie(lottie_chatbot, speed=1, width=400, height=300, loop=True, key="chatbot")
-            st.markdown("🧠 Posez vos questions en langage naturel. Le modèle Groq répond avec intelligence, et vous pouvez écouter la réponse.")
+            st.markdown("🧠 Posez vos questions en langage naturel. HyperBot répond avec intelligence, et vous pouvez écouter la réponse.")
 
             # Affichage de l'historique dans la sidebar
             with st.sidebar:
@@ -1065,7 +1065,7 @@ def main():
                                             statusDiv.style.display = 'none'; // Masquer si aucun audio
                                         }
                                     </script>
-                                """, unsafe_allow_html=True)
+                                """, unsafe_allow_html=True) 
                             else:
                                 st.error("Débogage - Aucun audio généré. Vérifiez votre connexion ou installez gTTS avec 'pip install gTTS'.")
                     except Exception as e:
